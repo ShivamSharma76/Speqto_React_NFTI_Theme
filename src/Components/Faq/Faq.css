@@ -1,0 +1,221 @@
+#faq_section {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.faq_para_head p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #777e91;
+}
+.faq_heading h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 56px;
+  letter-spacing: -0.02em;
+  color: #fcfcfd;
+}
+.faq_para_second p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #e6e8ec;
+}
+.faq_genral {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-around; */
+  margin-bottom: 25px;
+}
+.faq_genral img {
+  width: 12%;
+  height: 20px;
+}
+.faq_genral p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  align-items: center;
+  color: #777e91;
+  margin-left: 20px;
+}
+#faq_section_2 {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  padding-bottom: 70px;
+}
+.faq-heading {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fcfcfd;
+}
+
+.faq-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #777e91;
+}
+.faq_container {
+  border-top: 1px solid #353945;
+}
+.faq {
+  width: 100%;
+  margin: 0 auto;
+  background: #141416;
+  border-radius: 4px;
+  position: relative;
+  /* border: 1px solid #e1e1e1; */
+}
+.faq label {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  height: 54px;
+  padding-top: 13px;
+  background: #141416;
+  border-bottom: 1px solid #353945;
+}
+
+.faq input[type="checkbox"] {
+  display: none;
+}
+
+.faq .faq-arrow {
+  width: 10px;
+  height: 10px;
+  /* transition: -webkit-transform 0.8s; */
+  /* transition: transform 0.8s;
+  transition: transform 0.8s, -webkit-transform 0.8s; */
+  border-top: 2px solid #777e91;
+  border-right: 2px solid #777e91;
+  float: right;
+  position: relative;
+  top: -30px;
+  right: 27px;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.faq input[type="checkbox"]:checked + label > .faq-arrow {
+  /* transition: -webkit-transform 0.8s; */
+  /* transition: transform 0.8s;
+  transition: transform 0.8s, -webkit-transform 0.8s; */
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+.faq input[type="checkbox"]:checked + label {
+  display: block;
+  background: rgb(20 20 22) !important;
+  color: #4f7351;
+  height: auto;
+  transition: height 0.8s;
+  -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.faq input[type="checkbox"]:not(:checked) + label {
+  display: block;
+  transition: height 0.8s;
+  height: 60px;
+  -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.faq_btn_learn {
+  border: 2px solid #777e91;
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+  padding: 7px 23px;
+  gap: 10px;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+#hot_bid {
+  display: block;
+  padding-bottom: 40px;
+}
+.grass_faq {
+  display: flex;
+  justify-content: space-between;
+}
+.grass_faq img {
+  width: 59%;
+  height: 26px;
+}
+.grass_faq p {
+  margin: 0;
+  padding: 0;
+}
+.faq_card {
+  background: #141416;
+  box-shadow: 0px 64px 64px -48px rgb(31 47 70 / 12%);
+  border-radius: 16px;
+}
+.faq_card .faq_img_1 {
+  height: 20rem;
+}
+.hot_bid_heading {
+  margin-bottom: 5rem;
+}
+.grass_faq img {
+  width: 74% !important;
+  height: 26px;
+}
+.faq_owl_bid img {
+  width: 22px !important;
+  height: 22px;
+}
+.faq_owl_bid {
+  display: flex;
+  flex-direction: row;
+}
+.owl-theme .owl-nav {
+}
+.owl-theme .owl-dot {
+  display: none !important;
+}
+.owl-nav {
+  position: relative;
+  top: -619px;
+  left: 483px;
+}
+.owl-nav button {
+  font-size: 38px !important;
+  color: #777e91 !important;
+}
+.owl-nav button span {
+  padding: 2px 21px;
+  border: 1px solid #353945;
+  border-radius: 50%;
+}
+.owl-theme .owl-nav [class*="owl-"]:hover {
+  background: transparent !important;
+  text-decoration: none;
+}
+@media screen and (max-width: 821px) {
+  .faq_genral img {
+    width: 24%;
+    height: 20px;
+  }
+  .faq_card {
+    margin-left: 29px !important;
+  }
+  .grass_success {
+    margin-bottom: 12px !important;
+  }
+}

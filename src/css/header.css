@@ -1,0 +1,399 @@
+.vertical {
+  padding: 0 0.5em;
+  border-right: 2px solid #000000;
+}
+
+#navbar {
+  background-color: #141416;
+}
+
+.nav2 {
+  border-left: 1px solid #353945;
+}
+
+.navSearch,
+.navSearch:focus {
+  background: transparent;
+  border-radius: 9px;
+  color: #fff;
+  height: 37px;
+}
+
+.triangle {
+  width: 10px;
+  margin-left: 162px;
+  margin-top: -35px;
+  height: 46px;
+  position: relative;
+  top: 18px;
+  border-style: solid;
+  border-width: 0px 31.5px 40px 31.5px;
+  border-color: transparent transparent #141416 transparent;
+  transform: rotate(0deg);
+}
+
+.notification-panel {
+  padding: 10px;
+}
+
+.notification-panel:hover {
+  background: #23262f;
+  border-radius: 16px;
+  padding: 10px;
+}
+
+/* .navSearch{
+    
+    width: 89% !important;
+} */
+
+.connectWallet {
+  border: 1px solid #fff;
+  border-radius: 26px;
+}
+
+.uploadButton {
+  border-radius: 26px;
+  background-color: #3772ff;
+}
+
+.iconColor {
+  color: #777e90;
+}
+
+#box {
+  width: 12px;
+  background: green;
+  border-radius: 50%;
+  height: 12px;
+  position: relative;
+  left: -2px;
+  top: -12px;
+}
+
+/* .notify {
+    width: 179px;
+    height: 40px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.01em;
+    color: #FCFCFD;
+} */
+
+.view {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+  background-color: black;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 40px;
+  outline: 0;
+}
+
+.view1 {
+  margin-bottom: 0;
+  line-height: 1.5;
+  color: white;
+  margin-left: 32px;
+  font-size: 40px;
+}
+
+.point {
+  margin-top: -178px;
+  margin-left: 390px;
+}
+
+.all {
+  border-radius: 20px;
+  margin-top: 16px;
+}
+
+.main {
+  width: 179px;
+  height: 40px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -0.01em;
+  color: black;
+}
+
+.notify {
+  margin-top: -87px;
+  color: white;
+}
+
+.notifi {
+  padding: 8px;
+  margin-left: -9px;
+}
+
+.time {
+  color: #777e90;
+}
+
+.notification_image {
+  border-radius: 20px;
+  margin-left: -340px;
+}
+
+.fa-search {
+  position: relative;
+  left: -37px;
+}
+
+.brder-bottom {
+  border-bottom: 1px solid #777e90;
+}
+
+.img-fl {
+  max-width: 100%;
+  border-radius: 50%;
+  height: auto;
+}
+
+.smal1 {
+  width: 26px;
+}
+
+.navSearch {
+  border: 1px solid #353945 !important;
+  padding: 0.375rem 0.75rem;
+}
+
+.navSearch:focus {
+  border: 1px solid #353945 !important;
+  padding: 0.375rem 0.75rem;
+  outline: none;
+}
+
+input[type="text"]::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.connectWallet {
+  border: 2px solid #353945;
+}
+
+input[type="text"]::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+  outline: none;
+}
+
+.form-control:focus {
+  border-color: #ced4da;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.notification-modal .modal-title {
+  color: white;
+  font-size: 2vmax;
+}
+
+.notification-modal>.modal-header {
+  border-bottom: none;
+  align-items: center;
+  padding: 2vmax 2vmax 0 2vmax;
+}
+
+.notification-modal>.modal-header .close {
+  text-shadow: none;
+  opacity: 1;
+}
+
+.notification-modal>.modal-header span {
+  color: white;
+  font-size: 1.5vmax;
+  font-weight: 400;
+  opacity: unset;
+  width: 76px;
+  height: 40px;
+  padding: 0.5vmax 1vmax;
+  background: #3772ff;
+  border-radius: 90px;
+}
+
+.hidden-button {
+  display: none;
+  color: white;
+  font-size: 1.5vmax;
+  font-weight: 400;
+  opacity: unset;
+  width: 76px;
+  height: 40px;
+  padding: 0.5vmax 1vmax;
+  background: #3772ff;
+  border-radius: 90px;
+  border: none;
+}
+
+.notification-modal {
+  background: #141416;
+  box-shadow: 0px 16px 64px -48px rgba(31, 47, 70, 0.4);
+  border-radius: 24px;
+  width: 396px;
+}
+
+.notification-panel {
+  gap: 20px;
+  align-items: center;
+  margin: 2px 0;
+}
+
+.notification-panel>div:first-child {
+  width: 20%;
+}
+
+.notification-panel>div:nth-child(2) {
+  width: 70%;
+}
+
+.notification-panel>div:last-child {
+  width: 10%;
+}
+
+.notification-panel>div>img {
+  border-radius: 16px;
+  width: 100%;
+}
+
+.notification-panel>div>p {
+  padding: 0;
+  margin: 0;
+}
+
+.notification-panel>div>p:nth-child(2) {
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 24px;
+}
+
+.notification-panel>div>p:first-child {
+  font-weight: 500;
+  font-size: 1.4vw;
+  line-height: 24px;
+  color: #fcfcfd;
+}
+
+.notification-panel>div>p:last-child {
+  font-weight: 400;
+  font-size: 0.8vw;
+  line-height: 20px;
+  color: #777e91;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  background: #3772ff;
+  border-radius: 16px;
+}
+
+.connectWallet img {
+  margin-left: -5px;
+}
+
+.notification-modal-container .modal-dialog {
+  transform: translate(65%, 10%) !important;
+}
+
+@media (max-width: 480px) {
+  .notification-modal-container .modal-dialog {
+    transform: translate(17px, 73px) !important;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .nav2 {
+    border-left: none !important;
+  }
+
+  .notification-panel>div>p:first-child {
+    font-size: 1.3vmax;
+  }
+
+  .notification-panel>div>p:nth-child(2) {
+    font-size: 1.1vmax;
+  }
+
+  .notification-panel>div>p:last-child {
+    font-size: 1vmax;
+  }
+
+  .notification-modal-container .modal-dialog {
+    transform: translate(33%, 15%) !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .navSearch {
+    display: inline-block;
+    width: 50% !important;
+    vertical-align: middle;
+  }
+
+  .form-inline {
+    display: flex;
+    justify-content: center;
+  }
+
+  .notification-modal {
+    width: 354px;
+  }
+
+  .hidden-button {
+    display: block;
+  }
+
+  .hidden-button>span {
+    font-size: 3vmax;
+    font-weight: 600;
+  }
+
+  .notification-modal-container .modal-dialog {
+    transform: translate(0, 100px) !important;
+  }
+
+  .notification-modal>.modal-header .close {
+    display: none;
+  }
+
+  .notification-modal .modal-title {
+    font-size: 5vmax;
+  }
+
+  .notification-panel>div>p:first-child {
+    font-size: 2.1vmax;
+  }
+
+  .notification-panel>div>p:nth-child(2) {
+    font-size: 1.9vmax;
+  }
+
+  .notification-panel>div>p:last-child {
+    font-size: 1.7vmax;
+  }
+}

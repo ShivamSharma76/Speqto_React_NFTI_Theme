@@ -1,0 +1,779 @@
+#profile_bg {
+  background: url(../Assets/bg_profile_banner.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  height: 390px;
+}
+
+.pro_row_banner {
+  justify-content: flex-end;
+}
+
+.button_group_wrapper {
+  padding-top: 310px;
+}
+
+.profile_edit {
+  margin-right: 17px;
+  border-radius: 50px;
+  padding: 8px;
+  padding-left: 17px;
+  padding-right: 17px;
+  background: transparent;
+  border: 1px solid#ffff;
+  color: #ffff;
+  font-size: 16px;
+}
+
+.profileNftListing {
+  height: 240px;
+}
+
+.edit_profile_pic {
+  border-radius: 21px;
+  padding: 8px;
+  padding-left: 17px;
+  padding-right: 17px;
+  background: transparent;
+  border: 1px solid#ffff;
+  color: #ffff;
+  font-size: 16px;
+}
+
+.buttons_group button i {
+  margin-left: 10px;
+}
+
+#profile_content {
+  background: #141416;
+}
+
+.profile_card .card {
+  padding: 38px;
+  top: -149px;
+  position: relative;
+  left: calc(50% - 139px);
+  background: #23262f;
+  border: 1px solid #353945;
+  box-shadow: 0px 40px 32px -24px rgb(15 15 15 / 12%);
+  border-radius: 16px;
+}
+
+.profile_card .card img {
+  border-radius: 50%;
+  filter: blur(5px);
+}
+
+.card-body h5 {
+  color: white;
+  font-weight: 600;
+  /* font-family: Poppins; */
+}
+
+.card-body p {
+  color: white;
+  font-size: 16px;
+  /* font-family: Poppins; */
+  line-height: 21px;
+  font-weight: 400;
+}
+
+.card-body p i {
+  color: blue;
+  margin-left: 4px;
+}
+
+.card-body .card-artist {
+  color: #646464;
+}
+
+.card-body a i {
+  color: #646464;
+  margin-right: 11px;
+}
+
+.card-body a {
+  color: #ffff;
+  font-size: 16px;
+  margin-left: -20px;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.profile_follow {
+  display: flex;
+  margin-top: 29px;
+  margin-left: -10px;
+}
+
+.follow button {
+  border-radius: 22px;
+}
+
+.follow_icon {
+  border-radius: 50%;
+  padding: 4px;
+  border: 1px solid#646464;
+  position: relative;
+  left: 17px;
+}
+
+.pro-row {
+  margin-left: -25px;
+}
+
+.follow_dot {
+  border-radius: 50%;
+  padding: 4px;
+  border: 1px solid#646464;
+}
+
+.follow_dot p {
+  color: #646464;
+}
+
+.bi-box-arrow-down::before {
+  content: "\f1b9";
+  position: relative;
+  top: 9px;
+}
+
+.social_icon {
+  display: flex;
+  margin-top: 42px;
+  margin-left: 20px;
+}
+
+.social_icon p i {
+  padding: 10px;
+  color: #646464;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.amend_btn {
+  margin: 0;
+}
+
+/* .container{
+	width:90%
+	margin:10px auto;
+} */
+.portfolio-menu {
+  text-align: left;
+}
+
+.portfolio-menu ul li {
+  display: inline-block;
+  margin: 0;
+  list-style: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  -webkit-transition: all 05s ease;
+  -moz-transition: all 05s ease;
+  -ms-transition: all 05s ease;
+  -o-transition: all 05s ease;
+  transition: all 0.5s ease;
+}
+
+.portfolio-item {
+  margin-left: 31px;
+  margin-top: 41px;
+  justify-content: space-between;
+}
+
+/* video::-webkit-media-controls {
+  display: none;
+} */
+video::-webkit-media-controls-play-button {
+  display: block;
+}
+
+video::-webkit-media-controls-volume-slider {
+  display: none;
+}
+
+video::-webkit-media-controls-mute-button {
+  display: none;
+}
+
+video::-webkit-media-controls-timeline {
+  display: none;
+}
+
+video::-webkit-media-controls-current-time-display {
+  display: none;
+}
+
+video::-webkit-media-controls-start-playback-button {
+  display: none;
+}
+
+.btn-outline-dark {
+  color: #ffff;
+  border-color: transparent;
+}
+
+.portfolio-item .item {
+  /*width:303px;*/
+  float: left;
+  margin-bottom: 10px;
+}
+
+.portfolio-menu .btn-outline-dark:not(:disabled):not(.disabled).active {
+  color: black;
+  background-color: white;
+  border-color: #343a40;
+  border-radius: 34px;
+  padding-left: 26px;
+  padding-right: 26px;
+}
+
+.portfolio-item .item .pee_image {
+  border-radius: 22px;
+  height: 100%;
+  width: 100%;
+}
+
+.song_profile {
+  display: flex;
+  margin-top: 21px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* .song_cost {
+  border: 2px solid green;
+  padding-top: 11px;
+  margin-left: 71px;
+  border-radius: 7px;
+  padding-left: 15px;
+  padding-right: 15px;
+} */
+.song_cost p {
+  color: green;
+}
+
+.song_name {
+  font-size: 16px;
+  color: #ffff;
+  font-weight: 600;
+  /* margin-top: 17px; */
+}
+
+.prfile_eth {
+  padding: 3px !important;
+  /* border: 2px solid green; */
+}
+
+.card_profile_img img {
+  width: 40% !important;
+  border-radius: 50% !important;
+  height: 25px !important;
+}
+
+.card_profile_img {
+  text-align: left;
+}
+
+.card_profile_content p {
+  color: #ffff;
+  text-align: right;
+}
+
+.pro_row {
+  margin-top: 10px;
+  /* margin-left: -2px; */
+}
+
+.profile_body {
+  padding: 0.5rem;
+}
+
+.social_icon p {
+  padding: 10px;
+}
+
+.profile_break_line {
+  background: #353945;
+}
+
+.card_hr {
+  background: #353945;
+  border-radius: 8px;
+}
+
+.pro_setting p .span_1 {
+  /* font-family: "Poppins"; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #777e91;
+}
+
+.pro_setting p .span_2 {
+  /* font-family: "Poppins"; */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  color: #fcfcfd;
+}
+
+.pro_setting {
+  display: flex;
+  flex-direction: row;
+}
+
+.pro_hot {
+  /* font-family: "Poppins"; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: right;
+  color: #777e91;
+}
+
+.gallery-title {
+  font-size: 36px;
+  color: #42b32f;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 70px;
+}
+
+.gallery-title:after {
+  content: "";
+  position: absolute;
+  width: 7.5%;
+  left: 46.5%;
+  height: 45px;
+  border-bottom: 1px solid #5e5e5e;
+}
+
+.filter-button {
+  font-size: 18px;
+  border: 1px solid #42b32f;
+  border-radius: 5px;
+  text-align: center;
+  color: #42b32f;
+  margin-bottom: 30px;
+}
+
+.filter-button:hover {
+  font-size: 18px;
+  border: 1px solid #42b32f;
+  border-radius: 5px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #42b32f;
+}
+
+.btn-default:active .filter-button:active {
+  background-color: #42b32f;
+  color: white;
+}
+
+.port-image {
+  width: 100%;
+}
+
+.gallery_product {
+  margin-bottom: 30px;
+}
+
+.profile-loader {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.profile-loader>svg {
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+  .profile_card .card {
+    padding: 38px;
+    top: -144px;
+    position: relative;
+    left: calc(50% - 204px);
+    background: #23262f;
+    border: 1px solid #353945;
+    box-shadow: 0px 40px 32px -24px rgb(15 15 15 / 12%);
+    border-radius: 16px;
+    width: 90%;
+  }
+
+  .pro_row_banner {
+    justify-content: center;
+  }
+
+  .button_group_wrapper {
+    padding-top: 165px;
+  }
+
+  .card-body h5 {
+    font-size: 24px;
+  }
+
+  .card-body p {
+    color: white;
+    font-size: 17px;
+    /* font-family: Poppins; */
+    line-height: 35px;
+    font-weight: 400;
+  }
+
+  .card-body a {
+    color: #ffff;
+    margin-left: -20px;
+    font-size: 21px;
+    font-weight: 400;
+  }
+
+  .follow_icon img {
+    padding: 10px;
+  }
+
+  .follow_dot img {
+    padding: 10px;
+  }
+
+  .follow button {
+    width: 111%;
+    font-size: 23px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .social_icon p {
+    width: 22%;
+    text-align: center;
+    margin-left: 18px;
+  }
+
+  .profile_since {
+    font-size: 21px;
+  }
+
+  .card_oo img {
+    width: 9%;
+  }
+
+  .portfolio-item .item .pee_image {
+    border-radius: 22px;
+    width: 100%;
+    height: auto;
+  }
+
+  .pro_setting p {
+    font-size: 23px;
+  }
+
+  .song_cost button {
+    font-size: 23px;
+    text-align: right;
+  }
+
+  .portfolio-item {
+    margin-left: -14px;
+    margin-top: 41px;
+    justify-content: space-between;
+  }
+
+  .notification-modal-container .modal-dialog {
+    transform: translate(24px, 75px) !important;
+  }
+
+  .card_profile_img img {
+    width: 42% !important;
+    border-radius: 50% !important;
+    height: 45px !important;
+  }
+
+  .card_profile_content p {
+    font-size: 23px;
+    margin: 0;
+  }
+
+  .song_profile {
+    align-content: center;
+    align-items: center;
+  }
+
+  .song_name {
+    font-size: 23px;
+    text-align: left;
+  }
+
+  .portfolio-menu ul {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 418px) {
+  .profile_card .card {
+    left: calc(50% - 174px);
+  }
+
+  .pro_row_banner {
+    justify-content: center;
+  }
+
+  .button_group_wrapper {
+    padding-top: 165px;
+  }
+
+  .profile_card .card {
+    left: calc(50% - 174px);
+  }
+
+  .follow button {
+    width: 148%;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 4px;
+  }
+
+  .social_icon {
+    display: flex;
+    margin-top: 42px;
+    margin-left: 0px;
+  }
+
+  .follow_icon img {
+    padding: 10px;
+  }
+
+  .follow_dot img {
+    padding: 10px;
+  }
+
+  .profile_card .card {
+    padding: 38px;
+    top: -137px;
+    position: relative;
+    left: calc(50% - 169px);
+    background: #23262f;
+    border: 1px solid #353945;
+    box-shadow: 0px 40px 32px -24px rgb(15 15 15 / 12%);
+    border-radius: 16px;
+    width: 90%;
+  }
+}
+
+@media (max-width: 398px) {
+  .profile_card .card {
+    left: calc(50% - 185px);
+    width: 100%;
+  }
+
+  .pro_row_banner {
+    justify-content: center;
+  }
+
+  .button_group_wrapper {
+    padding-top: 165px;
+  }
+
+  .profile_card .card {
+    padding: 38px;
+    top: -137px;
+    position: relative;
+    left: calc(50% - 157px);
+    background: #23262f;
+    border: 1px solid #353945;
+    box-shadow: 0px 40px 32px -24px rgb(15 15 15 / 12%);
+    border-radius: 16px;
+    width: 90%;
+  }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+  .profile_card .card {
+    padding: 19px;
+  }
+
+  .portfolio-item {
+    margin-left: -15px;
+    margin-top: 0;
+    justify-content: space-between;
+  }
+
+  .profile_card .card {
+    top: -98px;
+    position: relative;
+    left: calc(50% - 201px);
+    background: #23262f;
+    border: 1px solid #353945;
+    box-shadow: 0px 40px 32px -24px rgb(15 15 15 / 12%);
+    border-radius: 16px;
+    width: 100%;
+  }
+
+  .card_profile_content p {
+    font-size: 13px;
+    margin: 0;
+  }
+
+  .song_profile {
+    align-content: center;
+    align-items: center;
+  }
+
+  .song_name {
+    font-size: 13px;
+  }
+
+  .portfolio-menu ul {
+    padding: 0;
+  }
+
+  #profile_bg {
+    height: 274px;
+  }
+
+  .button_group_wrapper {
+    padding-top: 198px;
+  }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .profile_card .card {
+    padding: 19px;
+  }
+
+  .portfolio-item {
+    margin-left: -15px;
+    margin-top: 0;
+    justify-content: space-between;
+  }
+
+  .profile_card .card {
+    top: -123px;
+    position: relative;
+    left: calc(50% - 114px);
+    background: #23262f;
+    border: 1px solid #353945;
+    box-shadow: 0px 40px 32px -24px rgb(15 15 15 / 12%);
+    border-radius: 16px;
+  }
+
+  .card_profile_content p {
+    font-size: 13px;
+    margin: 0;
+  }
+
+  .song_profile {
+    align-content: center;
+    align-items: center;
+  }
+
+  .song_name {
+    font-size: 13px;
+  }
+
+  .portfolio-menu ul {
+    padding: 0;
+  }
+
+  #profile_bg {
+    height: 274px;
+  }
+
+  .button_group_wrapper {
+    padding-top: 198px;
+  }
+
+  .pro_setting p {
+    font-size: 15px;
+  }
+
+  .pro_setting p img {
+    width: 10%;
+    margin-top: -1px;
+  }
+
+  .card-body p {
+    color: white;
+    font-size: 15px;
+  }
+
+  .grass_success {
+    margin-bottom: 0px;
+  }
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .portfolio-item {
+    margin-left: -15px;
+    margin-top: 0;
+    justify-content: space-between;
+  }
+
+  .profile_card .card {
+    top: -123px;
+    position: relative;
+    left: calc(50% - 175px);
+    background: #23262f;
+    border: 1px solid #353945;
+    box-shadow: 0px 40px 32px -24px rgb(15 15 15 / 12%);
+    border-radius: 16px;
+  }
+
+  .card_profile_content p {
+    font-size: 13px;
+    margin: 0;
+  }
+
+  .portfolio-menu ul {
+    padding: 0;
+  }
+
+  .song_profile {
+    align-content: center;
+    align-items: center;
+  }
+
+  .card_profile_content p {
+    font-size: 12px;
+    margin: 0;
+  }
+
+  .song_name {
+    font-size: 12px;
+  }
+
+  .song_cost button {
+    font-size: 13px;
+  }
+
+  .card_profile_img img {
+    width: 63% !important;
+  }
+
+  .pro_setting p .span_1 {
+    font-size: 12px;
+  }
+
+  .pro_setting p .span_2 {
+    font-size: 12px;
+  }
+}

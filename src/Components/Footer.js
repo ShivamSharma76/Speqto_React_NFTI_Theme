@@ -8,7 +8,7 @@ export const Footer = () => {
     return (
         <>
             <div className="container-fluid brder-top">
-                <div className="row">
+                <div className="row" style={{backgroundColor:'#023e7d'}}>
 
 
                     <div className="container">
@@ -17,10 +17,10 @@ export const Footer = () => {
                                 <div className="row">
                                     <div className="col-12 d-flex">
                                         <div>
-                                            <img className="d-inline d-md-none d-lg-none d-xl-none" src={logo} alt="" />
+                                            <img className="d-inline" src={'https://www.speqto.com/wp-content/themes/specto-fresh/image/css-sprite-combined-logo.png'} alt="" />
 
 
-                                            <h3 className="text-white d-inline d-md-block d-lg-block d-xl-block">NFTi</h3>
+                                         
                                         </div>
 
 

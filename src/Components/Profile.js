@@ -6,6 +6,7 @@ import { AiOutlineLoading3Quarters } from 'react-icons/ai'
 
 import "../css/Profile.css";
 import profile_avtar_dummy from "../Assets/profile_avtar_dummy.png";
+import speqto from "../Assets/speqto.png";
 import populate_avtar from "../Assets/populate_avtar.png";
 import profile_image_6 from "../Assets/profile_image_6.png";
 import profile_image_7 from "../Assets/profile_image_7.png";
@@ -187,7 +188,7 @@ export default function Profile({ setAmendData, accountAvailable }) {
               <div className="profile_card">
                 <div className="card">
                   <img
-                    src={profile_avtar_dummy}
+                    src={speqto}
                     className="card-img-top"
                     alt="..."
                   />
@@ -214,7 +215,7 @@ export default function Profile({ setAmendData, accountAvailable }) {
                     <div className="row mt-4 pro-row">
                       <div className=" col-4">
                         <div className="follow">
-                          <button className="btn btn-primary">Follow</button>
+                          <button className="btn btnClass">Follow</button>
                         </div>
                       </div>
                       <div className="col-4">
@@ -354,7 +355,7 @@ export default function Profile({ setAmendData, accountAvailable }) {
                             Iterate
                           </Link>
 
-                          <hr className="card_hr" />
+                          
                           <div className="pro_setting d-flex justify-content-between">
                             <p className="text-left  p_set">
                               <img
@@ -373,7 +374,7 @@ export default function Profile({ setAmendData, accountAvailable }) {
                   </> :
                     <div className="profile-loader">
                       {
-                        accountAvailable && <AiOutlineLoading3Quarters color="white" size={'3vw'} />
+                        accountAvailable && <AiOutlineLoading3Quarters color="black" size={'3vw'} />
                       }
                     </div>
                 }

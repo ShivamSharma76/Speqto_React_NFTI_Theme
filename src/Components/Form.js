@@ -288,7 +288,7 @@ export default function Form({ setCreateNFT }) {
                       <p>3 in stock</p>
                       {/* <p className="stock"> 3 in stock</p> */}
                     </div>
-                    <hr className="card_hr" />
+                    
                     <div className="pro_setting d-flex justify-content-between">
                       <p className="text-left">
                         <img

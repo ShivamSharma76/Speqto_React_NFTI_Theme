@@ -91,24 +91,20 @@ export default function Header({ isLogin, walletAdd, getAccount, disconnectWalle
 
   return (
     <>
-      <div className="container-fluid brder-bottom">
+      <div className="container-fluid brder-bottom" style={{backgroundColor: '#023e7d'}}>
         <div className="row">
           <div className="container-lg container-fluid-md pb-2">
             <nav className="navbar navbar-expand-md navbar-dark" id="navbar">
               <div>
+                <Link to="/">
                 <img
-                  className="d-inline d-md-none d-lg-none d-xl-none"
-                  src={logo}
+                  className="d-inline"
+                  src={'https://www.speqto.com/wp-content/themes/specto-fresh/image/css-sprite-combined-logo.png'}
                   alt=""
                 />
-
-                <Link
-                  className="navbar-brand"
-                  style={{ color: "#fff" }}
-                  to={"/"}
-                >
-                  NFTi
                 </Link>
+
+               
               </div>
               <div className="mx-2 my-md-0 my-xl-0 my-lg-0 d-flex d-md-none d-lg-none d-xl-none align-items-center justify-content-center">
                 <div

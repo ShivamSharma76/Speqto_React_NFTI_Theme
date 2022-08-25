@@ -3,16 +3,24 @@
   border-right: 2px solid #000000;
 }
 
-#navbar {
+/* #navbar {
   background-color: #141416;
-}
+} */
 
 .nav2 {
   border-left: 1px solid #353945;
 }
 
-.navSearch,
+
 .navSearch:focus {
+  background: transparent;
+  border-radius: 9px;
+  color: #fff;
+  height: 37px;
+}
+
+.navSearch{
+  border: 1px solid #7a8cc3 !important;
   background: transparent;
   border-radius: 9px;
   color: #fff;
@@ -164,7 +172,7 @@
 }
 
 .navSearch {
-  border: 1px solid #353945 !important;
+  /* border: 1px solid #353945 !important; */
   padding: 0.375rem 0.75rem;
 }
 
@@ -206,7 +214,7 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 .notification-modal .modal-title {
-  color: white;
+  color: #2b2d42;
   font-size: 2vmax;
 }
 
@@ -222,8 +230,8 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 .notification-modal>.modal-header span {
-  color: white;
-  font-size: 1.5vmax;
+  color: #2b2d42;
+  font-size: 1rem;
   font-weight: 400;
   opacity: unset;
   width: 76px;
@@ -248,10 +256,11 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 .notification-modal {
-  background: #141416;
+  background: #edf6f9 ;
   box-shadow: 0px 16px 64px -48px rgba(31, 47, 70, 0.4);
   border-radius: 24px;
   width: 396px;
+  border: 1px solid #2b2d42;
 }
 
 .notification-panel {
@@ -285,7 +294,7 @@ input[type="search"]::-webkit-search-results-decoration {
 .notification-panel>div>p:nth-child(2) {
   padding: 0;
   margin: 0;
-  color: white;
+  color: #2b2d42;
   font-weight: 400;
   font-size: 1vw;
   line-height: 24px;
@@ -295,7 +304,7 @@ input[type="search"]::-webkit-search-results-decoration {
   font-weight: 500;
   font-size: 1.4vw;
   line-height: 24px;
-  color: #fcfcfd;
+  color: #2b2d42;
 }
 
 .notification-panel>div>p:last-child {

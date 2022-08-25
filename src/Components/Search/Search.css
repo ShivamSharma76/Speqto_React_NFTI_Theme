@@ -93,7 +93,7 @@ input.tgg-title {
   line-height: 24px;
   display: flex;
   align-items: center;
-  color: #fcfcfd;
+  color: #2b2d42;
 }
 
 .faq-accordion-title:hover h2 {
@@ -208,9 +208,9 @@ input.tgg-title {
 }
 
 .keyWord_input input {
-  background: #141416;
+  background: #edf6f9;
   border: 2px solid #353945;
-  color: #ffff !important;
+  /* color: #ffff !important; */
   border-top: none;
   border-left: none;
   border-right: none;
@@ -220,14 +220,16 @@ input.tgg-title {
   /* padding-bottom: 48px; */
 }
 
+
+
 .keyWord_input input:focus {
   background: #141416;
   border-bottom: 2px solid #353945 !important;
 }
 
 .keyWord_input input:hover {
-  background: #141416;
-  /* padding: 10px; */
+  background: #edf6f9; 
+  padding: 10px;
   border: 2px solid #353945;
   border-top: none;
   border-left: none;
@@ -237,7 +239,7 @@ input.tgg-title {
 
 .keyWord_input input::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: #ffff !important;
+  color: #2b2d42!important;
   font-style: normal;
   font-weight: 400;
   /* font-size: 24px; */
@@ -346,7 +348,7 @@ input.tgg-title {
   line-height: 24px;
   display: flex;
   align-items: center;
-  color: #fcfcfd;
+  color: #2b2d42;
 }
 
 .search_reset {
@@ -367,7 +369,7 @@ input.tgg-title {
   line-height: 16px;
   text-align: right;
   margin-left: 17px;
-  color: #f4f5f6;
+  color: #2b2d42;
   margin-top: 6px;
 }
 
@@ -376,7 +378,7 @@ input.tgg-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 25px;
-  color: #fcfcfd;
+  color: #2b2d42;
   border-radius: 90px;
   margin-top: 30px;
   margin-bottom: 90px;
@@ -440,11 +442,11 @@ input.tgg-title {
   /* padding: 10px 15px; */
   cursor: pointer;
   transition: all 0.5s ease;
-  border: 1px solid #ffff;
+  border: 1px solid #023e7d;
   padding: 4px 14px !important;
-  background: #e6e8ec;
+  background: #c7cbeb;
   border-radius: 100px;
-  color: black;
+  color: #2b2d42;
 }
 
 .overlay {
@@ -620,7 +622,7 @@ input.tgg-title {
 }
 
 .item_search {
-  background: #23262f;
+  /* background: #23262f; */
   box-shadow: 0px 64px 64px -48px rgb(31 47 70 / 12%);
   border-radius: 20px;
   flex-direction: column;

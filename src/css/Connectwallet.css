@@ -3,6 +3,7 @@
   max-width: 100%;
   height: auto;
   padding-bottom: 6rem;
+  background: #edf6f9;
 }
 .wallet_flex {
   display: flex;
@@ -27,22 +28,22 @@
   font-size: 36px;
   line-height: 56px;
   letter-spacing: -0.02em;
-  color: #fcfcfd;
+  color: #2b2d42  !important;
 }
 .connect_1 p {
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
   line-height: 32px;
-  color: #fcfcfd;
+  color: #2b2d42;
   margin-left: 20px;
   margin-top: 7px;
 }
-.connect_1.active {
+/* .connect_1.active {
   color: #fcfcfd !important;
   background-color: #141416 !important;
   border-color: transparent !important;
-}
+} */
 .wallet_tab_content {
   justify-content: center;
   align-items: center;

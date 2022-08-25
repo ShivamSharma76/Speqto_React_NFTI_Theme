@@ -30,7 +30,7 @@ export const Search = () => {
     window.scroll(0,0)
 },[])
   return (
-    <div>
+    <div style={{backgroundColor: '#edf6f9'}}>
       <section id="keyword">
         <div className="container">
           <div className="row text-center">
@@ -623,7 +623,7 @@ export const Search = () => {
                 </div>
               </div>
               <button className="btn btn-outline-secondary btn_loader">
-                <img src={search_loader} alt="" className="img-fluid" /> Load
+                {/* <img src={search_loader} alt="" className="img-fluid" /> Load */}
                 More
               </button>
             </div>

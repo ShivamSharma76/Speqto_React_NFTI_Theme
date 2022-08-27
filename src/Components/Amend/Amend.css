@@ -1,5 +1,5 @@
 .item_root {
-  background-color: #141416;
+  background-color: #edf6f9;
   min-height: 100vh;
   color: white;
 }
@@ -47,14 +47,14 @@
 }
 
 .item-image-label > p:first-child {
-  background: #fcfcfd;
+  background: #b4bac7;
   border-radius: 4px;
   text-align: center;
   padding: 8px 6px;
   font-weight: 700;
   font-size: 1vmax;
   /* line-height: 12px; */
-  color: #23262f;
+  color: #636e8f;
 }
 
 .item-image-label > p:last-child {
@@ -77,7 +77,7 @@
 
 .item_image-container > img {
   border-radius: 16px;
-  background: #23262f;
+  background: #edf6f9;
   box-shadow: 0px 40px 32px -24px rgba(15, 15, 15, 0.12);
   /* mix-blend-mode: difference; */
   /* filter: blur(4px); */
@@ -120,6 +120,7 @@
 
 .item_heading > h1 {
   font-size: 3vmax;
+  color:#2b2d42;
 }
 
 .item_heading-footer {
@@ -166,13 +167,14 @@
   margin: 0;
   padding: 0;
   font-weight: 700;
+  
   /* line-height: 16px; */
 }
 
 .item-subheader_active {
-  background: #e6e8ec;
+  background: #b4bac7;
   border-radius: 100px;
-  color: #23262f;
+  color: #636e8f;
   padding: 4px 10px !important;
 }
 
@@ -192,6 +194,7 @@
 .item-row-details > p {
   font-size: 1.2vmax;
   /* line-height: 24px; */
+  color:#2b2d42;
 }
 
 .item-row-details-position {
@@ -209,7 +212,7 @@
 }
 
 .item-card-container {
-  background: #23262f;
+  background: #edf6f9;
   border: 1px solid #353945;
   box-shadow: 0px 64px 64px -48px rgba(31, 47, 70, 0.12);
   border-radius: 16px;
@@ -228,7 +231,7 @@
   font-weight: 500;
   font-size: 1.6vw;
   /* line-height: 24px; */
-  color: #777e91;
+  color: #2b2d42;
   text-transform: capitalize;
 }
 
@@ -236,7 +239,7 @@
   font-weight: 500;
   font-size: 1.6vw;
   /* line-height: 24px; */
-  color: #fcfcfd;
+  color: #2b2d42;
 }
 
 .item-card-price {
@@ -247,7 +250,7 @@
   font-weight: 600;
   font-size: 2.3vmax;
   /* line-height: 32px; */
-  color: #fcfcfd;
+  color: #2b2d42;
 }
 
 .item-card-price-dollar {
@@ -277,7 +280,7 @@
 
 .item-card-buttons-bid {
   text-align: center;
-  color: white;
+  color: #2b2d42 !important;
   border-radius: 90px;
   border: 2px solid #353945;
   background: none;
@@ -319,7 +322,7 @@
 }
 
 .item-card-nft-button {
-  background: #23262f;
+  background: #edf6f9;
   border: 1px solid #353945;
   box-shadow: 0px 64px 64px -48px rgba(31, 47, 70, 0.12);
   border-radius: 16px;

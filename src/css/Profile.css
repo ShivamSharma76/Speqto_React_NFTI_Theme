@@ -1,5 +1,5 @@
 #profile_bg {
-  background: url(../Assets/bg_profile_banner.png);
+  background: url(../Assets/banner.png);
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -9,6 +9,7 @@
 
 .pro_row_banner {
   justify-content: flex-end;
+  width:90rem;
 }
 
 .button_group_wrapper {
@@ -21,9 +22,9 @@
   padding: 8px;
   padding-left: 17px;
   padding-right: 17px;
-  background: transparent;
+  background: #cdc5d5;
   border: 1px solid#ffff;
-  color: #ffff;
+  color: #161616;
   font-size: 16px;
 }
 
@@ -36,9 +37,9 @@
   padding: 8px;
   padding-left: 17px;
   padding-right: 17px;
-  background: transparent;
-  border: 1px solid#ffff;
-  color: #ffff;
+  background: #cdc5d5;
+    border: 1px solid#ffff;
+    color: #161616;
   font-size: 16px;
 }
 
@@ -52,13 +53,14 @@
 
 .profile_card .card {
   padding: 38px;
-  top: -149px;
+  top: 0px;
   position: relative;
-  left: calc(50% - 139px);
+  left: calc(0% - 357px);
+  width: 23rem;
   background: #023e7d;
-  border: 1px solid #353945;
-  box-shadow: 0px 40px 32px -24px rgb(15 15 15 / 12%);
-  border-radius: 16px;
+  /* border: 1px solid #353945; */
+  /* box-shadow: 0px 40px 32px -24px rgb(15 15 15 / 12%); */
+  /* border-radius: 16px; */
 }
 
 .profile_card .card img {

@@ -22,14 +22,17 @@ import filter_copy from "../Assets/filter_copy.png";
 import market from "../smartContract_ABI/market.json";
 import ABI from "../smartContract_ABI/Abi.json";
 
-const nftmarketaddress = "0x6A28E640ac5681c41347364592eb9394BD6D29A8";
-const nftaddress = "0x956f41dCe063AbaeB0662908A87BeF8EBeeeaC61";
+//  const nftaddress =  "0x956f41dCe063AbaeB0662908A87BeF8EBeeeaC61";
+// const nftmarketaddress = "0x6A28E640ac5681c41347364592eb9394BD6D29A8";
+const nftaddress =  "0x63Adb8734CB67b34b4F0Ae3Ec81ef45Bf55C70Ae";
+const nftmarketaddress = "0x4f2a51A02c11fe59CF83aA342665e9302CF726c0";
 
 export default function Profile({ setAmendData, accountAvailable }) {
   const [walletAddress, setWalletAddress] = useState("");
   const [nfts, setNfts] = useState([]);
 
   async function loadNFTs() {
+    // debugger
     if (window.ethereum) {
       // Do something 
       const metaMaskLogin = await window.ethereum._metamask.isUnlocked()
@@ -69,6 +72,7 @@ export default function Profile({ setAmendData, accountAvailable }) {
       );
       let totalNftCount = parseInt(await tokenContract.totalNFTCount());
       const data = [];
+      // debugger
       for (let index = 0; index < totalNftCount; index++) {
         // const element = array[index];
 
@@ -184,7 +188,7 @@ export default function Profile({ setAmendData, accountAvailable }) {
       <section id="profile_content">
         <div className="container">
           <div className="row">
-            <div className="col-xl-3 col-lg-4 col-md-4 col-sm-6">
+            <div className="col-xl-3 col-lg-4 col-md-4 col-sm-6" style={{position:"relative"}} >
               <div className="profile_card">
                 <div className="card">
                   <img
@@ -213,12 +217,12 @@ export default function Profile({ setAmendData, accountAvailable }) {
                     </a>
 
                     <div className="row mt-4 pro-row">
-                      <div className=" col-4">
+                      <div className=" col-3">
                         <div className="follow">
                           <button className="btn btnClass">Follow</button>
                         </div>
                       </div>
-                      <div className="col-4">
+                      <div className="col-3">
                         <div className="follow_icon">
                           <img
                             src={profile_export}
@@ -228,7 +232,7 @@ export default function Profile({ setAmendData, accountAvailable }) {
                           />
                         </div>
                       </div>
-                      <div className="col-4">
+                      <div className="col-3">
                         <div className="follow_dot">
                           <img
                             src={profile_dot}

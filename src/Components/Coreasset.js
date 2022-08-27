@@ -21,14 +21,16 @@ import axios from "axios";
 
 const client = ipfsHttpClient("https://ipfs.infura.io:5001/api/v0");
 
-const STORAGE_NFT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweDM3NzViNDMzQ0Q0NTUwNWJlMDk0N0M1Mzg2YzU0MUNhOUZjOTIwZDMiLCJpc3MiOiJuZnQtc3RvcmFnZSIsImlhdCI6MTY1NDY5OTAzOTU1NSwibmFtZSI6Ik5GVGkifQ._gUNoDuZ2mNjTuH88y57fJ4dfzScsxhmVamqSrEaxL4";
+const STORAGE_NFT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweDE2Y0MwMTg5MTlBYjI2MjVDNEM2QkViQzI1QjkxNTQ0RDkxMTlmODIiLCJpc3MiOiJuZnQtc3RvcmFnZSIsImlhdCI6MTY2MTQ5ODQ2NDUxNiwibmFtZSI6IlNwZXF0by1ORlRpIn0.nk8je19yyR4zNSBeM1AsK3KcQePtUzdu3wUBjp7ogCE";
 
 const nftClient = new NFTStorage({
   token: STORAGE_NFT_TOKEN,
 });
 
-const nftaddress = "0x52779e4A38A715169D63fC2E3454cF43B264B77A";
-const nftmarketaddress = "0xeC97A40A429d16E12ad43bD05Ddee826a50308b3";
+//  const nftaddress =  "0x956f41dCe063AbaeB0662908A87BeF8EBeeeaC61";
+// const nftmarketaddress = "0x6A28E640ac5681c41347364592eb9394BD6D29A8";
+const nftaddress =  "0x63Adb8734CB67b34b4F0Ae3Ec81ef45Bf55C70Ae";
+const nftmarketaddress = "0x4f2a51A02c11fe59CF83aA342665e9302CF726c0";
 
 export default function Coreasset({ addNft }) {
   const [imagePath, setImagePath] = useState("");

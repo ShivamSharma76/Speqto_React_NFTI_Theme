@@ -38,13 +38,14 @@
   /* background: #141416; */
   background-color: #edf6f9;
   height: 48px;
+  color: black !important;
 }
 
 .populate_group input:focus {
   border: 2px solid #353945 !important;
   border-radius: 12px;
-  background: #141416;
-  background-color: #141416;
+  /* background: #141416; */
+  background-color: #edf6f9;
   height: 48px;
 }
 
@@ -54,13 +55,14 @@
   /* background: #141416; */
   background-color: #edf6f9;
   height: 48px;
+  color: black !important;
 }
 
 .populate_group_1 input:focus {
   border: 2px solid #353945 !important;
   border-radius: 12px;
-  background: #141416;
-  background-color: #141416;
+  /* background: #141416; */
+  background-color: #edf6f9;
   height: 48px;
 }
 

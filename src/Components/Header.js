@@ -91,11 +91,9 @@ export default function Header({ isLogin, walletAdd, getAccount, disconnectWalle
 
   return (
     <>
-      <div className="container-fluid brder-bottom" style={{backgroundColor: '#023e7d'}}>
-        <div className="row">
-          <div className="container-lg container-fluid-md pb-2">
-            <nav className="navbar navbar-expand-md navbar-dark" id="navbar">
-              <div>
+       <div className="container-fluid brder-bottom d-flex" style={{backgroundColor: '#023e7d', justifyContent:"space-between", alignItems:'center', flexWrap:'wrap'}}>
+        
+             <div>
                 <Link to="/">
                 <img
                   className="d-inline"
@@ -106,6 +104,8 @@ export default function Header({ isLogin, walletAdd, getAccount, disconnectWalle
 
                
               </div>
+            <nav className="navbar navbar-expand-md navbar-dark" id="navbar">
+            
               <div className="mx-2 my-md-0 my-xl-0 my-lg-0 d-flex d-md-none d-lg-none d-xl-none align-items-center justify-content-center">
                 <div
                   data-toggle="modal"
@@ -186,8 +186,7 @@ export default function Header({ isLogin, walletAdd, getAccount, disconnectWalle
               </div>
             </nav>
           </div>
-        </div>
-      </div>
+       
       <div
         className="modal fade notification-modal-container"
         id="popover"

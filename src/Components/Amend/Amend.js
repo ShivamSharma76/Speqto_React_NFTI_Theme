@@ -90,7 +90,7 @@ export default function Amend({ sendAmendNFTData }) {
     setModalHeading(heading);
   };
   useEffect(() => {
-    debugger;
+    // debugger;
     window.scroll(0, 0);
     setAmendNFTData(sendAmendNFTData);
     setAmendent((prevState) => ({

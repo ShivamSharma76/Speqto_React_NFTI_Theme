@@ -41,7 +41,7 @@ export default function Header({ isLogin, walletAdd, getAccount, disconnectWalle
   const history = useNavigate();
   console.log(isLogin);
 
-  async function getBalance(account) {
+  async function getBalance(account) { 
     // debugger
 
     const provider = new ethers.providers.Web3Provider(window.ethereum);
@@ -158,7 +158,7 @@ export default function Header({ isLogin, walletAdd, getAccount, disconnectWalle
                   className="mx-2 my-4 my-xl-0 my-lg-0 d-none d-md-flex d-lg-flex d-xl-flex align-items-center justify-content-center"
                 >
                   <img src={bell} alt="" />
-                  <div id="box"></div>
+                  <div id="box"></div>  
                 </div>
 
                 <button

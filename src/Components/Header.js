@@ -91,7 +91,7 @@ export default function Header({ isLogin, walletAdd, getAccount, disconnectWalle
 
   return (
     <>
-       <div className="container-fluid brder-bottom d-flex" style={{backgroundColor: '#023e7d', justifyContent:"space-between", alignItems:'center', flexWrap:'wrap'}}>
+       <div className="container-fluid brder-bottom d-flex metaTag" style={{backgroundColor: '#023e7d', justifyContent:"space-between", alignItems:'center', flexWrap:'wrap'}}>
         
              <div>
                 <Link to="/">
@@ -132,7 +132,7 @@ export default function Header({ isLogin, walletAdd, getAccount, disconnectWalle
                 </button>
               </div>
               <div
-                className="collapse navbar-collapse nav2 ml-3"
+                className="collapse navbar-collapse nav2 ml-3 metaTag1"
                 id="navbarSupportedContent"
               >
                 <ul className="navbar-nav mr-auto pl-3"></ul>

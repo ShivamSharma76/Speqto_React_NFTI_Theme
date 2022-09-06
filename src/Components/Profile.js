@@ -187,8 +187,8 @@ export default function Profile({ setAmendData, accountAvailable }) {
 
       <section id="profile_content">
         <div className="container">
-          <div className="row">
-            <div className="col-xl-3 col-lg-4 col-md-4 col-sm-6" style={{position:"relative"}} >
+          <div className="row mediaQuery">
+            <div className="col-xl-3 col-lg-4 col-md-4 col-sm-6"  >
               <div className="profile_card">
                 <div className="card">
                   <img

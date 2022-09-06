@@ -28,8 +28,8 @@ const nftClient = new NFTStorage({
     "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweDM3NzViNDMzQ0Q0NTUwNWJlMDk0N0M1Mzg2YzU0MUNhOUZjOTIwZDMiLCJpc3MiOiJuZnQtc3RvcmFnZSIsImlhdCI6MTY1NDY5OTAzOTU1NSwibmFtZSI6Ik5GVGkifQ._gUNoDuZ2mNjTuH88y57fJ4dfzScsxhmVamqSrEaxL4",
 });
 
-const nftaddress = "0x956f41dCe063AbaeB0662908A87BeF8EBeeeaC61";
-const nftmarketaddress = "0x6A28E640ac5681c41347364592eb9394BD6D29A8";
+const nftaddress = "0x63Adb8734CB67b34b4F0Ae3Ec81ef45Bf55C70Ae";
+const nftmarketaddress = "0x4f2a51A02c11fe59CF83aA342665e9302CF726c0";
 
 async function getAccount(data) {
   if (data) {

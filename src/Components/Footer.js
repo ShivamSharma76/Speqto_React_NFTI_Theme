@@ -191,7 +191,7 @@ export const Footer = () => {
 
                         <div className="row pt-3 ">
                             <div className="col-lg-7 col-xl-7 col-12 my-3 text-change d-flex px-lg-0 px-xl-0">
-                                Copyright © 2021 UI8 LLC. All rights reserved
+                                Copyright © 2022 All rights reserved
 
                             </div>
                             <div className="col-lg-5 col-xl-5 col-12 my-3 text-white d-flex justify-content-md-end justify-content-lg-end justify-content-xl-end justify-content-md-start px-lg-0 px-xl-0">

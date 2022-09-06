@@ -406,3 +406,30 @@ input[type="search"]::-webkit-search-results-decoration {
     font-size: 1.7vmax;
   }
 }
+
+@media (max-width: 768px){
+.navbar-dark {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+}
+}
+
+@media (max-width: 768px){
+  .metaTag{
+    background-color: rgb(2, 62, 125) !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-wrap: wrap !important;
+  }
+}
+
+@media only screen and (max-width: 992px){
+.metaTag1 {
+    border-left: none !important;
+    display: flex;
+}
+}

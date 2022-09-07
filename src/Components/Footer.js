@@ -197,7 +197,7 @@ export const Footer = () => {
                             <div className="col-lg-5 col-xl-5 col-12 my-3 text-white d-flex justify-content-md-end justify-content-lg-end justify-content-xl-end justify-content-md-start px-lg-0 px-xl-0">
                                 We use cookies for better service. &nbsp; <span className="text-primary"> Accept</span>
                             </div>
-                        </div>
+                        </div> 
                     </div>
                 </div>
             </div>
